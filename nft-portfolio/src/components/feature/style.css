@@ -1,0 +1,6 @@
+.img {
+  background-image: url(../../assets/hero/Cover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

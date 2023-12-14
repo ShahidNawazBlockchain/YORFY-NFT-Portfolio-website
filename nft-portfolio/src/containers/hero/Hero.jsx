@@ -1,10 +1,12 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { HeroContent, Navbar, Footer } from "../../components";
 import "./style.css";
 function Hero() {
   return (
-    <div className="img h-[100vh] ">
+    <div className="img ">
       <Navbar />
+      <HeroContent />
+      <Footer />
     </div>
   );
 }

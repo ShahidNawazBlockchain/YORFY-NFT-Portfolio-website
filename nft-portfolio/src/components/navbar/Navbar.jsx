@@ -5,7 +5,7 @@ import Buttons from "../button/Button";
 export default function Navbar() {
   return (
     <nav className="  text-white md:px-5 ">
-      <div className=" flex flex-wrap items-center justify-between py-6 ">
+      <div className=" flex flex-wrap items-center justify-between py-6  ">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={Logo} className="h-[40px] w-[40px]" alt="Logo" />
           <span className="text-white text-2xl font-bold font-['Poppins'] leading-10">
